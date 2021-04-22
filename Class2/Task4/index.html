@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Video Gallery</title>
+    <style>
+      .video-box {
+        float: left;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Video Gallery</h1>
+    <section>
+      <div class="video-box">
+        <video
+          height="150"
+          controls
+          src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"
+        ></video>
+      </div>
+      <div class="video-box">
+        <video height="150" controls>
+          <source
+            src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+      <div class="video-box">
+        <iframe src="https://youtube.com/embed/EhzmzXY8He4" />
+      </div>
+    </section>
+  </body>
+</html>

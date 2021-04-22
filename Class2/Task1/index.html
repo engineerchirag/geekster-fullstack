@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <form action="/action">
+      <div class="container">
+        <h1>Register</h1>
+        <p>Please fill in this form to create an account.</p>
+        <hr />
+
+        <div>
+          <label for="name"><b>Name</b></label>
+          <input
+            type="text"
+            placeholder="Name"
+            name="name"
+            id="name"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="email"><b>Email</b></label>
+          <input
+            type="email"
+            placeholder="Enter Email"
+            name="email"
+            id="email"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="phone"><b>Contact</b></label>
+          <input
+            type="number"
+            placeholder="Phone Number"
+            name="phone"
+            id="phone"
+            required
+          />
+        </div>
+
+        <div>
+          <label><b>Gender</b></label>
+          <label for="male-gender">Male</label>
+          <input
+            type="radio"
+            name="gender"
+            id="male-gender"
+            value="male"
+            required
+          />
+          <label for="female-gender">Female</label>
+          <input
+            type="radio"
+            name="gender"
+            id="female-gender"
+            value="female"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="course"><b>Select course</b></label>
+          <select id="course" name="course">
+            <option value="DSA">DSA</option>
+            <option value="Frontend">Frontend</option>
+            <option value="Backend">Backend</option>
+            <option value="Fullstack">Fullstack</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="description"><b>Short Introdction</b></label>
+          <textarea
+            placeholder="Introdction"
+            name="description"
+            id="description"
+            required
+          ></textarea>
+        </div>
+
+        <div>
+          <label for="psw"><b>Password</b></label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="password"
+            id="psw"
+            required
+          />
+        </div>
+
+        <div>
+          <input type="checkbox" id="tc" name="tc" required />
+          <label for="tc"> By creating an account you agree to our </label>
+          <a href="#">Terms & Privacy</a>.
+        </div>
+
+        <button type="submit" class="registerbtn">Register</button>
+      </div>
+
+      <hr />
+
+      <div class="container signin">
+        <p>Already have an account? <a href="#">Sign in</a>.</p>
+      </div>
+    </form>
+  </body>
+</html>
