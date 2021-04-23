@@ -1,0 +1,14 @@
+
+div > .grand-father div div {
+    background-color: green;
+    color: orange;
+    cursor: pointer;
+} 
+
+#cousin {
+    color: purple;
+}
+
+body {
+    padding: 30px;
+}

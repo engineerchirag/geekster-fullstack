@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <style>
+        * {
+            font-weight: bold;
+        }
+        .great-grand-father {
+            background-color: antiquewhite;
+            box-shadow: rgb(213, 206, 187) 0px 0px 15px 0px;
+        }
+        .grand-father {
+            background-color: bisque;
+            margin-left: 50px;
+        }
+        .uncle, .father, .aunty {
+            background-color: yellow;
+            margin-left: 50px;
+            margin-bottom: 20px;
+        }
+        .father {
+            color: red;
+        }
+        .great-grand-father > .grand-father {
+            color: blue;
+        }
+        .brother ~ div {
+            color: pink;
+        }
+        .great-grand-father::before {
+            content: "Great Grand Father";
+        }
+
+        .grand-father::before {
+            content: "Grand Father";
+        }
+
+        .father::before {
+            content: "Father";
+        }
+
+        .uncle::before {
+            content: "Uncle";
+        }
+
+        .great-grand-father div div div {
+            margin-left: 50px;
+        }
+
+        .great-grand-father .grand-father:last-child div.uncle {
+            background-color: blueviolet;
+        }
+
+        .great-grand-father .grand-father:last-child div.uncle div::first-letter {
+            font-size: 30px;
+        }
+
+        div[name="Bro"] {
+            color: green;
+        }     
+
+        .great-grand-father div.grand-father div div {
+            background-color: white;
+            color: blue;
+        } 
+
+    </style>
+</head>
+<body>
+    <div>
+        <a 
+            href="https://www.notion.so/engineerchirag/CSS-Selector-Specificity-1cc75fdf0da444e193da7ffa7351a3be"
+            target="_blank"
+        >Document</a>
+    </div>
+    <div class="great-grand-father">
+        <div class="grand-father">
+            <div class="father">
+                <div class="you" title="Chirag Goel" name="Chirag" data-id="1234">You</div>
+                <div class="brother" title="Bro" name="Bro">Brother</div>
+                <div class="sister">Sister</div>   
+            </div>
+            <div class="uncle">
+                <div class="cousin" style="color: brown">Cousin 1</div>
+                <div class="cousin">Cousin 2</div>
+                <div class="cousin">Cousin 3</div>
+            </div>
+        </div>
+        <div class="grand-father">
+            <div class="uncle">
+                <div class="cousin">Cousin 3</div>
+                <div class="cousin">Cousin 4</div>
+                <div class="cousin">Cousin 5</div>
+            </div>
+            <div class="aunty">
+                <div class="cousin">Cousin 6</div>
+                <div class="cousin">Cousin 7</div>
+                <div class="cousin">Cousin 8</div>
+            </div>
+            <div class="uncle">
+                <div class="cousin">Cousin 9</div>
+                <div class="cousin">Cousin 10</div>
+                <div class="cousin">Cousin 11</div>
+            </div>
+        </div>
+        <div class="grand-father">
+            <div class="uncle">
+                <div class="cousin">Cousin 12</div>
+                <div class="cousin">Cousin 13</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
