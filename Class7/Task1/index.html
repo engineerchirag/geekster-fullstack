@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <script>
+            // Global scope
+            var a = 10;
+            var name = 'Chirag';
+
+            // local Scope
+            function hello() {
+                var name = "Goel";
+                console.log("1. hello >>", name);
+            }
+            hello();
+
+
+            function logName() {
+                console.log("2. logName >>", name);
+            }
+            logName();
+
+
+            function helloWorld() {
+                console.log("3. init helloWorld >> ", name);
+                name = "Mr";
+                console.log("4. helloWorld >>", name);
+            }
+            helloWorld();
+
+            console.log("5.Global >>",name);
+        </script>
+        <script src="index.js"></script>
+
+        <script src="blockscope.js"></script>
+        <script>
+            console.log(a);
+        </script>
+    </head>
+    <body>
+        YooHoo Scope!
+    </body>
+</html>
