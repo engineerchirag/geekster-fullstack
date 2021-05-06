@@ -1,4 +1,4 @@
-# geekster-advancer
+# Geekster Classes
 
 Prerequisite:
 - Git [Video](https://www.youtube.com/watch?v=R0uDk392pdg&list=PL4CFloQ4GGWJjYbFGyL68Hfq_bRrfnRbK) 
