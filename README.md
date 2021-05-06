@@ -1,9 +1,12 @@
 # geekster-advancer
 
+Prerequisite:
+- Git [Video](https://www.youtube.com/watch?v=R0uDk392pdg&list=PL4CFloQ4GGWJjYbFGyL68Hfq_bRrfnRbK) 
+
 Class 1:
 - Task1: Building your portfolio using HTML, CSS
 - Task 2: Building assignment link using table
-- Task 3: Hosting daily tasks on github pages
+- Task 3: Hosting daily tasks on github pages [Video](https://www.youtube.com/watch?v=EhzmzXY8He4) 
 
 Class 2:
 - Task1: Registration Form
