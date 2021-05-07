@@ -38,3 +38,8 @@ Class 7:
 Class 8:
 - Context (this,  call, apply, bind)
 - Closure
+
+Class 9:
+ - Arrow function
+ - Rest and spread operators
+ - Functional programming
