@@ -43,3 +43,7 @@ Class 9:
  - Arrow function
  - Rest and spread operators
  - Functional programming
+
+Class 10:
+- Task 1: Understanding DOM
+- Task 2: Implementing calendar using DOM manipulation

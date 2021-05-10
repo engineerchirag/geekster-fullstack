@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Static Template</title>
+  <link href="index.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="calendar-left">
+      <div class="calendar-left-view">
+        <div class="hamburger">
+          <div class="burger-line"></div>
+          <!-- burger-line -->
+          <div class="burger-line"></div>
+          <!-- burger-line -->
+          <div class="burger-line"></div>
+          <!-- burger-line -->
+        </div>
+        <!-- hamburger -->
+
+        <div class="num-date">01</div>
+        <!--num-date -->
+        <div class="day" id="current-day">SUNDAY</div>
+        <!--day -->
+        <div class="current-events">
+          Current Events
+          <br />
+          <ul>
+            <li>Day 09 Daily CSS Image</li>
+          </ul>
+          <div class="posts" onclick="showPost()">See post events</div>
+        </div>
+        <!--current-events -->
+
+        <div class="create-event">
+          <div>Create an Event</div>
+          <div class="add-event"><span class="add">+</span></div>
+        </div>
+        <!-- create-event -->
+        <hr class="event-line" />
+        <!-- add-event -->
+      </div>
+      <div class="calendar-event-create hide">
+        <form>
+          <div class="heading">Create Event</div>
+          <input type="text" placeholder="Enter event title" name="title" />
+          <input type="datetime-local" name="dateTime" />
+          <input type="submit" />
+        </form>
+      </div>
+    </div>
+    <!-- calendar-left -->
+    <div class="calendar-right">
+      <div class="year">2021</div>
+      <!-- year -->
+
+      <span class="triangle-left" data-id="PREV"></span>
+      <!--triangle -->
+      <span class="triangle-right" data-id="NEXT"></span>
+      <!--  triangle -->
+
+      <div class="months">
+        <span class="month-hover" data-id="0">Jan</span>
+        <span class="month-hover" data-id="1">Feb</span>
+        <span class="month-hover" data-id="2">Mar</span>
+        <span class="month-hover active-month" data-id="3">Apr</span>
+        <span class="month-hover" data-id="4">May</span>
+        <span class="month-hover" data-id="5">Jun</span>
+        <span class="month-hover" data-id="6">July</span>
+        <span class="month-hover" data-id="7">Aug</span>
+        <span class="month-hover" data-id="8">Sep</span>
+        <span class="month-hover" data-id="9">Oct</span>
+        <span class="month-hover" data-id="10">Nov</span>
+        <span class="month-hover" data-id="11">Dec</span>
+      </div>
+      <!-- months -->
+      <hr class="month-line" />
+
+      <div class="days">SUN MON TUE WED THU FRI SAT</div>
+      <!-- days -->
+
+      <div class="num-dates">
+        <div class="week">
+          <span class="grey">26</span>
+          <span class="grey">27</span>
+          <span class="grey">28</span>
+          <span class="grey">29</span>
+          <span class="grey">30</span>
+          <span class="grey">31</span>
+          <span>01</span>
+        </div>
+        <!-- first week -->
+        <div class="week">
+          <span>02</span>
+          <span>03</span>
+          <span>04</span>
+          <span>05</span>
+          <span>06</span>
+          <span>07</span>
+          <span>08</span>
+        </div>
+        <!-- week -->
+        <div class="week">
+          <span>09</span>
+          <span class="active-day">10</span>
+          <span>11</span>
+          <span>12</span>
+          <span>13</span>
+          <span>14</span>
+          <span>15</span>
+        </div>
+        <!-- week -->
+        <div class="week">
+          <span>16</span>
+          <span>17</span>
+          <span>18</span>
+          <span>19</span>
+          <span>20</span>
+          <span>21</span>
+          <span>22</span>
+        </div>
+        <!-- week -->
+        <div class="week">
+          <span>23</span>
+          <span>24</span>
+          <span>25</span>
+          <span>26</span>
+          <span>27</span>
+          <span>28</span>
+          <span>29</span>
+        </div>
+        <!-- week -->
+        <div class="week">
+          <span>30</span>
+          <span class="grey">01</span>
+          <span class="grey">02</span>
+          <span class="grey">03</span>
+          <span class="grey">04</span>
+          <span class="grey">05</span>
+          <span class="grey">06</span>
+        </div>
+        <!-- week -->
+      </div>
+      <!-- num-dates -->
+    </div>
+    <!-- calendar-base -->
+  </div>
+  <!-- container -->
+  <script>
+    const eventsElement = document.querySelector('.current-events ul');
+    
+    function loadEvents() {
+      var eventListElement = document.querySelector('.current-events ul');
+      const events = [{
+        title: 'Funderstanding DOM',
+        dateTime: '10-05-2021',
+
+      }, {
+        title: 'Calendar implementation using DOM',
+        dateTime: '10-05-2021'
+
+      }];
+
+      events.forEach((item, i) => {
+        const liElement = document.createElement('li');
+        liElement.innerText = item.title;
+        eventListElement.appendChild(liElement);
+      });
+
+      
+      eventsElement.style.height = '20px';
+      eventsElement.style.overflow = 'hidden';
+    }
+
+    loadEvents();
+
+    function showPost() {
+      const postsElement = document.querySelector('.posts');
+      eventsElement.style.height = 'auto';
+      postsElement.classList.add('hide');
+    }
+
+    const addEventElement = document.querySelector('.add-event');
+    addEventElement.addEventListener('click', function() {
+      const viewElement = document.querySelector('.calendar-left-view');
+      const createElement = document.querySelector('.calendar-event-create');
+      viewElement.classList.add('hide');
+      createElement.classList.remove('hide');
+    });
+  </script>
+</body>
+
+</html>
