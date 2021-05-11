@@ -7,6 +7,54 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Static Template</title>
   <link href="index.css" rel="stylesheet" />
+  <script>
+    function loadEvents() {
+      const eventsElement = document.querySelector('.current-events ul');
+      var eventListElement = document.querySelector('.current-events ul');
+      const events = [{
+        title: 'Funderstanding DOM',
+        dateTime: '10-05-2021',
+
+      }, {
+        title: 'Calendar implementation using DOM',
+        dateTime: '10-05-2021'
+
+      }];
+
+      events.forEach((item, i) => {
+        const liElement = document.createElement('li');
+        liElement.innerText = item.title;
+        eventListElement.appendChild(liElement);
+      });
+
+      
+      eventsElement.style.height = '20px';
+      eventsElement.style.overflow = 'hidden';
+    }
+
+    function showPost() {
+      const eventsElement = document.querySelector('.current-events ul');
+      const postsElement = document.querySelector('.posts');
+      eventsElement.style.height = 'auto';
+      postsElement.classList.add('hide');
+    }
+
+    function addEventForEventCreation () {
+      const addEventElement = document.querySelector('.add-event');
+      addEventElement.addEventListener('click', function() {
+        const viewElement = document.querySelector('.calendar-left-view');
+        const createElement = document.querySelector('.calendar-event-create');
+        viewElement.classList.add('hide');
+        createElement.classList.remove('hide');
+      });
+    }
+
+    window.onload = function (event) {
+      console.log(event);
+      loadEvents();
+      addEventForEventCreation();
+    }
+  </script>
 </head>
 
 <body>
@@ -151,48 +199,7 @@
     <!-- calendar-base -->
   </div>
   <!-- container -->
-  <script>
-    const eventsElement = document.querySelector('.current-events ul');
-    
-    function loadEvents() {
-      var eventListElement = document.querySelector('.current-events ul');
-      const events = [{
-        title: 'Funderstanding DOM',
-        dateTime: '10-05-2021',
-
-      }, {
-        title: 'Calendar implementation using DOM',
-        dateTime: '10-05-2021'
-
-      }];
-
-      events.forEach((item, i) => {
-        const liElement = document.createElement('li');
-        liElement.innerText = item.title;
-        eventListElement.appendChild(liElement);
-      });
-
-      
-      eventsElement.style.height = '20px';
-      eventsElement.style.overflow = 'hidden';
-    }
-
-    loadEvents();
-
-    function showPost() {
-      const postsElement = document.querySelector('.posts');
-      eventsElement.style.height = 'auto';
-      postsElement.classList.add('hide');
-    }
-
-    const addEventElement = document.querySelector('.add-event');
-    addEventElement.addEventListener('click', function() {
-      const viewElement = document.querySelector('.calendar-left-view');
-      const createElement = document.querySelector('.calendar-event-create');
-      viewElement.classList.add('hide');
-      createElement.classList.remove('hide');
-    });
-  </script>
+  
 </body>
 
 </html>
