@@ -46,4 +46,8 @@ Class 9:
 
 Class 10:
 - Task 1: Understanding DOM
-- Task 2: Implementing calendar using DOM manipulation
+- Task 2: Implementing calendar using DOM manipulation (Part 1)
+
+Class 11:
+- Task 1: Implementing calendar using DOM manipulation (Part 2)
+- Task 2: Understanding Eventlisteners in depth
