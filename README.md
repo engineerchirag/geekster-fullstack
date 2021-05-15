@@ -57,5 +57,7 @@ Class 12:
 - Task 2: Web workers
 - Task 3: Understanding Async using setTimeout
 - Task 4: Understanding Async using setInterval
+- Task 3/4: Understanding Event Loop
 - Task 5: Request Animation Frame
 - Task 6: Understanding Fetch
+
