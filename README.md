@@ -51,3 +51,11 @@ Class 10:
 Class 11:
 - Task 1: Implementing calendar using DOM manipulation (Part 2)
 - Task 2: Understanding Eventlisteners in depth
+
+Class 12:
+- Task 1: Synchronous JavaScript
+- Task 2: Web workers
+- Task 3: Understanding Async using setTimeout
+- Task 4: Understanding Async using setInterval
+- Task 5: Request Animation Frame
+- Task 6: Understanding Fetch
