@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Understanding fetch: Example 1</h1>
+    <div id="data"></div>
+    <script>
+        const URL = 'https://609e833333eed80017958b6c.mockapi.io/api/list/user';
+        const request = new Request(URL, {
+            method: 'GET',
+        });
+
+        fetch(request)
+            .then(response => {
+                if (response.status === 200) {
+                    return response.json();
+
+                } else {
+                    throw new Error('Something went wrong on api server!');
+                }
+            })
+            .then(response => {
+                console.debug(response);
+                var dataElement = document.getElementById("data");
+                dataElement.innerHTML = JSON.stringify(response);
+            }).catch(error => {
+                console.error(error);
+            });
+    </script>
+
+
+    <h1>Understanding fetch: Example 2</h1>
+    <img class="my-image" src="" />
+    <script>
+        const image = document.querySelector('.my-image');
+        fetch('flowers.jpg')
+            .then(response => response.blob())
+            .then(blob => {
+                const objectURL = window.URL.createObjectURL(blob);
+                image.src = objectURL;
+            });
+    </script>
+</body>
+
+</html>
