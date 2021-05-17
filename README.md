@@ -61,3 +61,7 @@ Class 12:
 - Task 5: Request Animation Frame
 - Task 6: Understanding Fetch
 
+Class 13:
+- Task 1: Undertanding Promise
+- Task 2: Integrating calendar with web API
+
