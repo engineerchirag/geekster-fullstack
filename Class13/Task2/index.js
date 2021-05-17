@@ -1,5 +1,6 @@
 // References:
 // - toLocaleString: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString
+// Dependecies: https://www.npmjs.com/package/json-server
 
 (() => {
     let eventList = [

@@ -63,5 +63,5 @@ Class 12:
 
 Class 13:
 - Task 1: Undertanding Promise
-- Task 2: Integrating calendar with web API
+- Task 2: Integrating calendar with web API [Dependency: https://www.npmjs.com/package/json-server]
 
