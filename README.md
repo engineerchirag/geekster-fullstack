@@ -65,3 +65,6 @@ Class 13:
 - Task 1: Undertanding Promise
 - Task 2: Integrating calendar with web API [Dependency: https://www.npmjs.com/package/json-server]
 
+Class 14:
+- Task 1: Understanding OOP using constructor function
+- Task 2: Understanding OOP using class
