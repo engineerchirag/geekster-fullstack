@@ -139,11 +139,11 @@
       });
   
       // Change year
-      const yearWrapperElement = document.querySelector(".calendar-right");
+      const yearWrapperElement = document.querySelector(".calendar-year");
       yearWrapperElement.addEventListener("click", function (event) {
         if (event.target.nodeName === "SPAN") {
           const yearElement = yearWrapperElement
-            .closest(".calendar-right")
+            .closest(".calendar-year")
             .querySelector(".year");
           activeYear =
             event.target.getAttribute("data-id") === "PREV"
@@ -164,7 +164,7 @@
       let daysInNextMonth = 42 - (firstDayOfTheMonth + daysInMonth);
       const previousMonthDays = Array(firstDayOfTheMonth)
         .fill()
-        .map((data, i) => daysInPreviousMonth - 5 + i);
+        .map((data, i) => daysInPreviousMonth - firstDayOfTheMonth + 1 + i);
       const currentMonthDays = Array(daysInMonth)
         .fill()
         .map((data, i) => i + 1);
