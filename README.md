@@ -68,3 +68,7 @@ Class 13:
 Class 14:
 - Task 1: Understanding OOP using constructor function
 - Task 2: Understanding OOP using class
+
+Class 15:
+- Task 1: Understanding fundamentals of responsive web design
+- Task 2: Making a web page responsive
