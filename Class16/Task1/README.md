@@ -1,4 +1,9 @@
+# Learning Bootstrap
+
+Task1: Learning bootstrap fundemantals
+Task2: Using components and forms
+
 # Assignments
 
-1. Build a home page like [Link](https://getbootstrap.com/)
-2. Design a registration form
+Assignment 1. Build a home page like [Link](https://getbootstrap.com/)
+Assignment 2. Design a registration form using bootstrap
