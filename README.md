@@ -74,6 +74,10 @@ Class 15:
 - Task 2: Making a web page responsive
 
 Class 16:
+- Task1: Learning bootstrap fundamentals
+- Task2: Using components and forms
+
+Class 17:
 - Task 1: Intro, Features, Setup, Fundamentals (JSX, Virtual DOM) [Demo1](https://codepen.io/engineerchirag/pen/oNzJRVV
 ) [Demo2](https://codepen.io/engineerchirag/pen/oNzJRrO
 )
