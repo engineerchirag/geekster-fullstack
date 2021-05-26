@@ -72,3 +72,9 @@ Class 14:
 Class 15:
 - Task 1: Understanding fundamentals of responsive web design
 - Task 2: Making a web page responsive
+
+Class 16:
+- Task 1: Intro, Features, Setup, Fundamentals (JSX, Virtual DOM) [Demo1](https://codepen.io/engineerchirag/pen/oNzJRVV
+) [Demo2](https://codepen.io/engineerchirag/pen/oNzJRrO
+)
+- Task 2: Playing with CRA app
