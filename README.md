@@ -82,3 +82,10 @@ Class 17:
 ) [Demo2](https://codepen.io/engineerchirag/pen/oNzJRrO
 )
 - Task 2: Playing with CRA app
+
+Class 18:
+- Task 1: Understanding components, state, props
+- Task 2: Creating components and using state, props [Link](https://github.com/engineerchirag/big-store-ecommerce/commit/e74a958f1b0c48bded3bbcfce32b3550375b1cdd)
+
+Class 19:
+- Task 1: Conditional rendering, List, Key,  Fragments [Link](https://github.com/engineerchirag/big-store-ecommerce/commit/1d8d4a2fcb171f1ec9c21adfe647de60a7c9b5b7)
