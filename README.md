@@ -82,3 +82,7 @@ Class 17:
 ) [Demo2](https://codepen.io/engineerchirag/pen/oNzJRrO
 )
 - Task 2: Playing with CRA app
+
+Class 18:
+- Task 1: Understanding components, state and props
+- Task 2: Using above understanding in Big-Store-Ecommerce app
