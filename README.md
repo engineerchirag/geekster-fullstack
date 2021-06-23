@@ -86,3 +86,9 @@ Class 17:
 Class 18:
 - Task 1: Understanding components, state and props
 - Task 2: Using above understanding in Big-Store-Ecommerce app
+
+Class 19 - 25:
+- Tasks: Big-Store-Ecommerce app
+
+Class 26:
+- Task: Getting started with NodeJs
