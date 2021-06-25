@@ -1,0 +1,13 @@
+{
+  "name": "task3",
+  "version": "1.0.0",
+  "description": "- Learning URL module - Serving static react application via Node Js server",
+  "main": "index.js",
+  "scripts": {
+    "debug": "nodemon --inspect index.js",
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
