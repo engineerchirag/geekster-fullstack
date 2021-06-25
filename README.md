@@ -97,3 +97,11 @@ Class 26:
 - Task: Getting started with NodeJs
 - Task 1: Understanding components, state, props
 - Task 2: Creating components and using state, props [Link](https://github.com/engineerchirag/big-store-ecommerce/commit/e74a958f1b0c48bded3bbcfce32b3550375b1cdd)
+
+Class 27:
+Task 1 - Node.Js File System Module
+Task 2 - Nodemon
+Task 3 - Debugging Node Js
+Task 4 - Package Management
+Task 5 - Learning URL module
+Task 6 - Serving static react application via Node Js server
