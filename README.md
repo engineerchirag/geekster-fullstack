@@ -99,6 +99,7 @@ Class 21 - 25:
 
 Class 26:
 - Task: Getting started with NodeJs
+- Task: Basic Design System
 
 Class 27:
 - Task 1 - Node.Js File System Module
