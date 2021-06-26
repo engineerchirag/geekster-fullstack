@@ -90,18 +90,20 @@ Class 18:
 Class 19:
 - Task 1: Conditional rendering, List, Key,  Fragments [Link](https://github.com/engineerchirag/big-store-ecommerce/commit/1d8d4a2fcb171f1ec9c21adfe647de60a7c9b5b7)
 
-Class 20 - 25:
+Class 20:
+- Task 1: Understanding components, state, props
+- Task 2: Creating components and using state, props [Link](https://github.com/engineerchirag/big-store-ecommerce/commit/e74a958f1b0c48bded3bbcfce32b3550375b1cdd)
+
+Class 21 - 25:
 - Tasks: Big-Store-Ecommerce app
 
 Class 26:
 - Task: Getting started with NodeJs
-- Task 1: Understanding components, state, props
-- Task 2: Creating components and using state, props [Link](https://github.com/engineerchirag/big-store-ecommerce/commit/e74a958f1b0c48bded3bbcfce32b3550375b1cdd)
 
 Class 27:
-Task 1 - Node.Js File System Module
-Task 2 - Nodemon
-Task 3 - Debugging Node Js
-Task 4 - Package Management
-Task 5 - Learning URL module
-Task 6 - Serving static react application via Node Js server
+- Task 1 - Node.Js File System Module
+- Task 2 - Nodemon
+- Task 3 - Debugging Node Js
+- Task 4 - Package Management
+- Task 5 - Learning URL module
+- Task 6 - Serving static react application via Node Js server
