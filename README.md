@@ -105,3 +105,8 @@ Task 3 - Debugging Node Js
 Task 4 - Package Management
 Task 5 - Learning URL module
 Task 6 - Serving static react application via Node Js server
+
+Class 28:
+Task 1: Rest API
+Task 2: Postman client
+Task 3: Node modules (os, events, https)
