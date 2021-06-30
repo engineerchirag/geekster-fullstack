@@ -102,14 +102,19 @@ Class 26:
 - Task: Basic Design System
 
 Class 27:
-Task 1 - Node.Js File System Module
-Task 2 - Nodemon
-Task 3 - Debugging Node Js
-Task 4 - Package Management
-Task 5 - Learning URL module
-Task 6 - Serving static react application via Node Js server
+- Task 1 - Node.Js File System Module
+- Task 2 - Nodemon
+- Task 3 - Debugging Node Js
+- Task 4 - Package Management
+- Task 5 - Learning URL module
+- Task 6 - Serving static react application via Node Js server
 
 Class 28:
-Task 1: Rest API
-Task 2: Postman client
-Task 3: Node modules (os, events, https)
+- Task 1: Understanding Rest API
+- Task 2: Using Postman client
+- Task 3: Node modules (os, events, https)
+
+Class 29:
+- Task 1: Setting up Express Js and building basic app
+- Task 2: Building API by making server to server call
+- Task 3: Setting up project using express-generator
