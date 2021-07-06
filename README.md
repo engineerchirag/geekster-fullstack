@@ -118,3 +118,8 @@ Class 29:
 - Task 1: Setting up Express Js and building basic app
 - Task 2: Building API by making server to server call
 - Task 3: Setting up project using express-generator
+
+Class 30:
+- Task 1: Understanding template engine
+- Task 2: Create CRUD API
+- Task 3: Understanding middleware and creating authentication middleware
